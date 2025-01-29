@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "routes": [
+    {
+      "src": "/:id/:tipo/advertorial/:nome",
+      "dest": "/:id/:tipo/advertorial/:nome/index.html"
+    }
+  ]
+}
