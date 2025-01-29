@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "cleanUrls": true,
+  "cleanUrls": false,
   "trailingSlash": false,
   "routes": [
     {
-      "src": "/:id/:tipo/advertorial/:nome",
-      "dest": "/:id/:tipo/advertorial/:nome/index.html"
+      "src": "/(?<id>[^/]+)/(?<tipo>[^/]+)/advertorial/(?<nome>[^/]+)",
+      "dest": "/$id/$tipo/advertorial/$nome.html"
     }
   ]
 }
